@@ -1,6 +1,6 @@
 print("This programme is to find the arithmetical operations on two numbers")
 num1=int(input("Please enter the first value: "))
-num2=int(input("Please enter the first value: "))
+num2=int(input("Please enter the second value: "))
 print("Press 1 to get their sum\nPress 2 to get their difference\nPress 3 to get their product\nPress 4 to get their divsion\nOR Press 5 to get all these at once")
 press=int(input("Provide your choice: "))
 print("-"*25)
