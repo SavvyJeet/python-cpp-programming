@@ -1,4 +1,4 @@
-Dice Rolling Simulator
+Dice Rolling Simulator <br> 
 A simple beginner-level Python project that simulates rolling a six-sided dice.
 
 Features :
