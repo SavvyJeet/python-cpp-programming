@@ -5,9 +5,7 @@ try:
     print("both are same numbers!")
   else:
     print(f"currently a = {a}\nb = {b}")
-    a+=b
-    b=a-b
-    a-=b
+    a,b = b,a
     print(f"After swapping: a = {a}, b = {b}")
 except ValueError:
   print("Enter valid integer !")
