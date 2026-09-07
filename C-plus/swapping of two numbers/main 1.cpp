@@ -6,6 +6,11 @@ int main(){
     cin>>a;
     cout<<"Enter the value of b : ";
     cin>>b;
-    a+=b;b = a-b;a-=b;
-    cout<<"after swapping a = "<<a<<", b = "<<b;
+    if(a==b){
+        cout<<"both are same numbers";
+    }
+    else {
+        a+=b;b = a-b;a-=b;
+        cout<<"after swapping a = "<<a<<", b = "<<b;
+    }
 }
